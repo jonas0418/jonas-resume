@@ -8129,3 +8129,8 @@ p {
 .demo-img {
   margin-top: 10px;
 }
+
+/* line 80, ../sass/styles.scss */
+.gw-web {
+  margin-left: 5px;
+}
