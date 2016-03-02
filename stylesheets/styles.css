@@ -8132,5 +8132,41 @@ p {
 
 /* line 80, ../sass/styles.scss */
 .gw-web {
-  margin-left: 5px;
+  margin-left: 0;
+}
+
+/* line 84, ../sass/styles.scss */
+.cloudstitch {
+  height: 500px;
+  margin-bottom: 10px;
+}
+
+/* line 88, ../sass/styles.scss */
+#barchart {
+  display: block;
+}
+
+@media all and (max-width: 768px) {
+  /* line 93, ../sass/styles.scss */
+  .cloudstitch {
+    height: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 97, ../sass/styles.scss */
+  #barchart {
+    display: block;
+  }
+}
+@media all and (min-width: 768px) {
+  /* line 102, ../sass/styles.scss */
+  #barchart {
+    display: none;
+  }
+
+  /* line 105, ../sass/styles.scss */
+  .cloudstitch {
+    height: 500px;
+    margin-bottom: 10px;
+  }
 }

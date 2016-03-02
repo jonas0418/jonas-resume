@@ -78,6 +78,32 @@ p{
   margin-top: 10px;
 }
 .gw-web{
-  margin-left:5px;
-  
+
+  margin-left:0;
 }
+.cloudstitch{
+  height: 500px;
+  margin-bottom: 10px;
+}
+#barchart{
+
+  display: block;
+}
+@media all and (max-width: 768px) {
+  .cloudstitch{
+    height:0px;
+    margin-bottom: 0px;
+  }
+  #barchart{
+    display:block;
+  }
+ }
+@media all and (min-width: 768px){
+  #barchart{
+    display:none;
+  }
+  .cloudstitch{
+    height: 500px;
+    margin-bottom: 10px;
+  }
+ }
