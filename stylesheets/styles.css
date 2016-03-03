@@ -8132,6 +8132,7 @@ p {
 
 /* line 80, ../sass/styles.scss */
 .gw-web {
+  word-wrap: break-word;
   margin-left: 0;
 }
 
